@@ -1,0 +1,14 @@
+{
+  "name": "connectivity",
+  "version": "0.0.1",
+  "description": "determine connectivity via adjacency matrices",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Chris Andrejewski <christopher.andrejewski@gmail.com> (chrisandrejewski.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
