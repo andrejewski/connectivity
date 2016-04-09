@@ -1,12 +1,8 @@
 # Connectivity
 Determine if a graph is connected using its adjacency matrix.
 
-```bash
-npm install connectivity
-```
-
 ```js
-var connectivity = require('connectivity');
+var connectivity; // pending name change for NPM
 var assert = require('assert');
 
 var matrix = [
