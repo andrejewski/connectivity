@@ -5,7 +5,7 @@ function connectivity(matrix) {
 
   // find starting node (first non-zero entry)
   row: for(var i = 0; i < size; i++) {
-    for(j = 0; j < size; j++) {
+    for(var j = 0; j < size; j++) {
       if(matrix[i][j] !== 0) {
         v = [i,j];
         break row;
@@ -26,6 +26,7 @@ function connectivity(matrix) {
     }
   }
 
+  // have all nodes been visited?
   var t = 0;
   while(vertices[t]) {t++;}
   return t === size;
